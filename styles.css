@@ -8,7 +8,8 @@ body {
 .section-01,
 .section-02,
 .section-03,
-.section-04 {
+.section-04,
+.footer {
     display: flex;
     align-items: center;
     padding: 10px 200px;
@@ -188,4 +189,13 @@ body {
     color: white;
     font-size: 18px;
 }
+
+.footer {
+    background-color: #1F2937;
+    justify-content: center;
+    height: 50px;
+}
+
+.footer .content {
+    color: #E5E7EB;}
 
